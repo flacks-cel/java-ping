@@ -2,8 +2,9 @@ name: Continuous Delivery
 
 on:
   push:
-    branches: main
-
+    branches: 
+      - "develp"
+      - "release/*"
 
 jobs:
   delivery:
